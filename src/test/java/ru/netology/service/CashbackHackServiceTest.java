@@ -11,7 +11,7 @@ public class CashbackHackServiceTest {
     public void testWhenPurchaseEqualThousand() {
         int amount = 1000;
 
-        int expected = 1000;
+        int expected = 0;
         int actual = service.remain(amount);
 
         assertEquals(actual, expected);
